@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mộc Sấy - Đơn Giản Mà Tròn Vị | Trái Cây Sấy Giòn Tự Nhiên</title>
+  <meta name="description" content="Mộc Sấy chuyên cung cấp trái cây sấy giòn và nông sản sấy tự nhiên, thơm ngon giòn rụm, chuẩn vị nông sản Việt. Mua ngay trên TikTok Shop và Facebook với nhiều ưu đãi hấp dẫn!">
+  <meta name="keywords" content="Mộc Sấy, trái cây sấy giòn, dâu tây sấy, chuối sấy, xoài sấy, khoai lang sấy, nông sản sấy, ăn vặt lành mạnh, facebook, tiktok shop">
+  
+  <!-- Google Fonts: Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons for E-commerce & Social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'moc-green': '#8DBB65',
+            'moc-green-dark': '#739D4E',
+            'moc-green-light': '#EBF4E5',
+            'moc-cream': '#FFF9EC',
+            'moc-cream-card': '#FFFDF7',
+            'moc-yellow': '#E8B95F',
+            'moc-yellow-hover': '#D9A745',
+            'moc-brown': '#493C32',
+            'moc-brown-light': '#6B5B4E',
+            'moc-gray': '#7A7571'
+          },
+          fontFamily: {
+            sans: ['Roboto', 'sans-serif'],
+          },
+          boxShadow: {
+            'soft': '0 8px 30px rgba(73, 60, 50, 0.06)',
+            'hover': '0 15px 35px rgba(141, 187, 101, 0.18)',
+            'card': '0 4px 20px rgba(73, 60, 50, 0.05)',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      background-color: #FFF9EC;
+      color: #493C32;
+      font-family: 'Roboto', sans-serif;
+    }
+    
+    /* Custom scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #FFF9EC;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #8DBB65;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #739D4E;
+    }
+
+    /* Pulse animation for CTA */
+    @keyframes subtle-pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.03); }
+    }
+    .animate-subtle-pulse {
+      animation: subtle-pulse 3s infinite ease-in-out;
+    }
+
+    /* Badge highlight wave */
+    .shimmer {
+      background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0) 100%);
+      background-size: 200% 100%;
+      animation: shimmer 2.5s infinite;
+    }
+    @keyframes shimmer {
+      0% { background-position: -200% 0; }
+      100% { background-position: 200% 0; }
+    }
+  </style>
+</head>
+
+<body class="bg-moc-cream text-moc-brown antialiased selection:bg-moc-green selection:text-white">
+
+  <!-- ========================================================
+       TOP NOTIFICATION BAR (CRO: Khơi gợi ưu đãi & kênh bán)
+       ======================================================== -->
+  <div class="bg-moc-green text-white text-xs md:text-sm py-2 px-4 text-center font-medium shadow-sm flex items-center justify-center gap-2 relative">
+    <span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-semibold bg-moc-yellow text-moc-brown">
+      <i class="fa-solid fa-gift mr-1"></i> ƯU ĐÃI THÁNG NÀY
+    </span>
+    <span>Freeship toàn quốc & Voucher giảm tới 25% khi đặt qua <b>TikTok Shop</b> & <b>Facebook</b>!</span>
+    <a href="#products" class="underline hover:text-moc-cream transition-colors font-bold ml-1 hidden sm:inline">Khám phá ngay &rarr;</a>
+  </div>
+
+  <!-- ========================================================
+       HEADER & NAVIGATION (Logo, Menu, Quick Shop Links)
+       ======================================================== -->
+  <header class="sticky top-0 z-50 bg-moc-cream/95 backdrop-blur-md border-b border-moc-green/20 transition-all duration-300 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <!-- Brand Logo -->
+        <a href="#" class="flex items-center gap-3 group">
+          <div class="w-14 h-14 rounded-2xl overflow-hidden border-2 border-moc-green shadow-sm flex items-center justify-center bg-white p-0.5 group-hover:scale-105 transition-transform duration-300">
+            <!-- Tệp logo theo yêu cầu của người dùng -->
+            <img src="./logo.jpg" alt="Mộc Sấy" class="w-full h-full object-cover rounded-xl" onerror="this.onerror=null; this.src='./Mộc Sấy - Đơn giản mà tròn vị LG.jpg';">
+          </div>
+          <div class="flex flex-col">
+            <span class="text-2xl font-black tracking-tight text-moc-brown group-hover:text-moc-green transition-colors">MỘC SẤY</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:flex items-center space-x-8 text-sm font-medium">
+          <a href="#home" class="text-moc-brown hover:text-moc-green transition-colors py-1 relative after:absolute after:bottom-0 after:left-0 after:w-0 hover:after:w-full after:h-0.5 after:bg-moc-green after:transition-all">Trang Chủ</a>
+          <a href="#about" class="text-moc-brown hover:text-moc-green transition-colors py-1 relative after:absolute after:bottom-0 after:left-0 after:w-0 hover:after:w-full after:h-0.5 after:bg-moc-green after:transition-all">Về Mộc Sấy</a>
+          <a href="#benefits" class="text-moc-brown hover:text-moc-green transition-colors py-1 relative after:absolute after:bottom-0 after:left-0 after:w-0 hover:after:w-full after:h-0.5 after:bg-moc-green after:transition-all">Vì Sao Chọn Mộc?</a>
+          <a href="#products" class="text-moc-brown hover:text-moc-green transition-colors py-1 relative after:absolute after:bottom-0 after:left-0 after:w-0 hover:after:w-full after:h-0.5 after:bg-moc-green after:transition-all">Menu Giòn Rụm</a>
+          <a href="#reviews" class="text-moc-brown hover:text-moc-green transition-colors py-1 relative after:absolute after:bottom-0 after:left-0 after:w-0 hover:after:w-full after:h-0.5 after:bg-moc-green after:transition-all">Đánh Giá</a>
+          <a href="#faq" class="text-moc-brown hover:text-moc-green transition-colors py-1 relative after:absolute after:bottom-0 after:left-0 after:w-0 hover:after:w-full after:h-0.5 after:bg-moc-green after:transition-all">Hỏi Đáp</a>
+        </nav>
+
+        <!-- Right Action CTAs (Facebook & TikTok Quick Links) -->
+        <div class="hidden lg:flex items-center gap-3">
+          <a href="https://www.facebook.com/share/1CNJh5EuMX/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2 text-xs font-bold rounded-xl border border-blue-600 text-blue-600 bg-white hover:bg-blue-50 transition-all shadow-sm">
+            <i class="fa-brands fa-facebook text-sm"></i>
+            <span>Fanpage Facebook</span>
+          </a>
+          <a href="https://www.tiktok.com/@mocsay_traicaysay?_r=1&_t=ZS-9AjFcgbGpRk" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2 text-xs font-bold rounded-xl bg-black text-white hover:bg-neutral-800 transition-all shadow-sm">
+            <i class="fa-brands fa-tiktok text-sm"></i>
+            <span>TikTok Shop</span>
+          </a>
+          <a href="#products" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-moc-green hover:bg-moc-green-dark text-white font-bold text-sm shadow-md hover:shadow-lg transition-all transform hover:-translate-y-0.5">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span>Mua Ngay</span>
+          </a>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <div class="flex items-center gap-2 md:hidden">
+          <a href="#products" class="p-2.5 rounded-xl bg-moc-green text-white text-sm font-bold flex items-center justify-center">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+          <button id="mobileMenuBtn" aria-label="Mở menu điều hướng" class="p-2.5 rounded-xl bg-white border border-moc-green/30 text-moc-brown hover:text-moc-green focus:outline-none">
+            <i class="fa-solid fa-bars text-xl" id="menuIcon"></i>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div id="mobileMenu" class="hidden md:hidden bg-moc-cream-card border-b border-moc-green/20 px-6 py-6 transition-all duration-300 shadow-xl">
+      <div class="flex flex-col space-y-4 font-medium text-base">
+        <a href="#home" class="mobile-nav-link text-moc-brown hover:text-moc-green py-2 border-b border-moc-green/10 flex justify-between items-center">
+          <span>Trang Chủ</span> <i class="fa-solid fa-chevron-right text-xs text-moc-green"></i>
+        </a>
+        <a href="#about" class="mobile-nav-link text-moc-brown hover:text-moc-green py-2 border-b border-moc-green/10 flex justify-between items-center">
+          <span>Về Mộc Sấy</span> <i class="fa-solid fa-chevron-right text-xs text-moc-green"></i>
+        </a>
+        <a href="#benefits" class="mobile-nav-link text-moc-brown hover:text-moc-green py-2 border-b border-moc-green/10 flex justify-between items-center">
+          <span>Vì Sao Chọn Mộc?</span> <i class="fa-solid fa-chevron-right text-xs text-moc-green"></i>
+        </a>
+        <a href="#products" class="mobile-nav-link text-moc-brown hover:text-moc-green py-2 border-b border-moc-green/10 flex justify-between items-center">
+          <span>Menu Trái Cây Sấy</span> <i class="fa-solid fa-chevron-right text-xs text-moc-green"></i>
+        </a>
+        <a href="#reviews" class="mobile-nav-link text-moc-brown hover:text-moc-green py-2 border-b border-moc-green/10 flex justify-between items-center">
+          <span>Khách Hàng Đánh Giá</span> <i class="fa-solid fa-chevron-right text-xs text-moc-green"></i>
+        </a>
+        <a href="#faq" class="mobile-nav-link text-moc-brown hover:text-moc-green py-2 border-b border-moc-green/10 flex justify-between items-center">
+          <span>Câu Hỏi Thường Gặp</span> <i class="fa-solid fa-chevron-right text-xs text-moc-green"></i>
+        </a>
+        
+        <div class="pt-4 flex flex-col gap-3">
+          <a href="https://www.facebook.com/share/1CNJh5EuMX/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" class="w-full py-3 text-center rounded-xl bg-blue-600 text-white font-bold text-sm flex items-center justify-center gap-2 shadow-sm">
+            <i class="fa-brands fa-facebook"></i> Đặt Qua Facebook
+          </a>
+          <a href="https://www.tiktok.com/@mocsay_traicaysay?_r=1&_t=ZS-9AjFcgbGpRk" target="_blank" rel="noopener noreferrer" class="w-full py-3 text-center rounded-xl bg-black text-white font-bold text-sm flex items-center justify-center gap-2 shadow-sm">
+            <i class="fa-brands fa-tiktok"></i> Mua Trên TikTok Shop
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- ========================================================
+       PHẦN 1: HERO SECTION (Thu hút chú ý trong 3 giây đầu – Attention)
+       ======================================================== -->
+  <section id="home" class="relative overflow-hidden pt-10 pb-16 md:pt-16 md:pb-24">
+    <!-- Decorative organic background shapes -->
+    <div class="absolute top-10 left-0 w-72 h-72 bg-moc-green/15 rounded-full blur-3xl pointer-events-none -z-10"></div>
+    <div class="absolute bottom-10 right-0 w-96 h-96 bg-moc-yellow/20 rounded-full blur-3xl pointer-events-none -z-10"></div>
+    
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left Column: Copywriting & CTAs -->
+        <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+          
+          <!-- Category & Tagline pill (Đã bỏ chữ Mộc Sấy đơn giản mà tròn vị) -->
+          <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-moc-green-light border border-moc-green/30 text-moc-brown text-xs md:text-sm font-semibold tracking-wide">
+            <span class="w-2.5 h-2.5 rounded-full bg-moc-green animate-ping"></span>
+            <span class="text-moc-green-dark font-bold"><i class="fa-solid fa-leaf mr-1"></i>100% Tự Nhiên & Lành Mạnh</span>
+          </div>
+
+          <!-- Main Headline H1 -->
+          <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-moc-brown tracking-tight leading-tight">
+            Đơn Giản Mà <span class="text-moc-green underline decoration-moc-yellow decoration-4 underline-offset-8">Tròn Vị</span>
+          </h1>
+
+          <!-- Subheadline -->
+          <p class="text-base sm:text-lg md:text-xl text-moc-brown-light font-normal max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+            Từ những nguyên liệu quen thuộc, Mộc Sấy mang đến món ăn vặt giòn ngon, thơm vị tự nhiên. Đa dạng hương vị, tiện lợi thưởng thức, thêm trọn vẹn niềm vui trong từng khoảnh khắc.
+          </p>
+
+          <!-- 3 USPs quick bullets -->
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2 pb-2 text-left">
+            <div class="flex items-center gap-2.5 bg-white/70 backdrop-blur-sm p-3 rounded-2xl border border-moc-green/20 shadow-xs">
+              <div class="w-9 h-9 rounded-xl bg-moc-green/20 flex items-center justify-center text-moc-green shrink-0">
+                <i class="fa-solid fa-seedling text-base"></i>
+              </div>
+              <span class="text-xs font-bold text-moc-brown">Nguyên liệu được tuyển chọn</span>
+            </div>
+            
+            <div class="flex items-center gap-2.5 bg-white/70 backdrop-blur-sm p-3 rounded-2xl border border-moc-green/20 shadow-xs">
+              <div class="w-9 h-9 rounded-xl bg-moc-yellow/30 flex items-center justify-center text-moc-brown shrink-0">
+                <i class="fa-solid fa-wand-magic-sparkles text-base"></i>
+              </div>
+              <span class="text-xs font-bold text-moc-brown">Đa dạng món sấy thơm ngon</span>
+            </div>
+
+            <div class="flex items-center gap-2.5 bg-white/70 backdrop-blur-sm p-3 rounded-2xl border border-moc-green/20 shadow-xs">
+              <div class="w-9 h-9 rounded-xl bg-orange-100 flex items-center justify-center text-orange-600 shrink-0">
+                <i class="fa-solid fa-box-open text-base"></i>
+              </div>
+              <span class="text-xs font-bold text-moc-brown">Túi zip tiện lợi, bảo quản giòn lâu</span>
+            </div>
+          </div>
+
+          <!-- CTAs Bar (CRO: Multiple purchase channel choices) -->
+          <div class="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+            <a href="#products" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-2xl bg-moc-green hover:bg-moc-green-dark text-white font-bold text-base shadow-hover transform hover:-translate-y-1 transition-all duration-300 animate-subtle-pulse">
+              <i class="fa-solid fa-basket-shopping text-lg"></i>
+              <span>Khám Phá Menu Giòn Rụm</span>
+              <i class="fa-solid fa-arrow-right text-sm"></i>
+            </a>
+
+            <!-- Social shop fast redirects -->
+            <div class="flex items-center gap-3 w-full sm:w-auto justify-center">
+              <a href="https://www.facebook.com/share/1CNJh5EuMX/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" class="flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 px-5 py-4 rounded-2xl bg-white hover:bg-blue-50 border-2 border-blue-500 text-blue-600 font-bold text-sm shadow-card hover:shadow-md transition-all">
+                <i class="fa-brands fa-facebook text-base"></i>
+                <span>Ghé Fanpage FB</span>
+              </a>
+              <a href="https://www.tiktok.com/@mocsay_traicaysay?_r=1&_t=ZS-9AjFcgbGpRk" target="_blank" rel="noopener noreferrer" class="flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 px-5 py-4 rounded-2xl bg-moc-brown hover:bg-black text-white font-bold text-sm shadow-card hover:shadow-md transition-all">
+                <i class="fa-brands fa-tiktok text-base"></i>
+                <span>Ghé TikTok</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Live Trust Micro-Banner -->
+          <div class="pt-4 flex items-center justify-center lg:justify-start gap-6 text-xs text-moc-gray">
+            <div class="flex items-center gap-1.5">
+              <i class="fa-solid fa-shield-halved text-moc-green text-sm"></i>
+              <span>Đổi trả 1-1 nếu không giòn</span>
+            </div>
+            <div class="flex items-center gap-1.5">
+              <i class="fa-solid fa-truck-fast text-moc-yellow text-sm"></i>
+              <span>Giao hàng toàn quốc</span>
+            </div>
+            <div class="flex items-center gap-1.5">
+              <i class="fa-solid fa-circle-check text-moc-green text-sm"></i>
+              <span>An toàn vệ sinh ATTP</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Column: Visual Hero Banner with Natural Fruit Collage -->
+        <div class="lg:col-span-5 relative">
+          <!-- Main Hero Image Frame -->
+          <div class="relative mx-auto max-w-md lg:max-w-none">
+            
+            <!-- Glow background -->
+            <div class="absolute -inset-2 bg-gradient-to-tr from-moc-green to-moc-yellow rounded-3xl opacity-30 blur-2xl"></div>
+
+            <div class="relative bg-white p-4 rounded-3xl shadow-xl border-4 border-white overflow-hidden group">
+              <!-- High quality natural food visual -->
+              <div class="h-80 sm:h-96 w-full rounded-2xl overflow-hidden relative bg-moc-cream">
+                <img src="./say_thap_cam.jpg" onerror="this.onerror=null; this.src='./sấy thập cẩm.jpg';" 
+                     alt="Trái cây sấy giòn Mộc Sấy tự nhiên" 
+                     class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-5">
+                  <div class="text-white space-y-1">
+                    <span class="inline-block px-2.5 py-1 rounded-lg bg-moc-yellow text-moc-brown font-extrabold text-xs uppercase tracking-wider">
+                      Đặc Sản Trái Cây Sấy Giòn
+                    </span>
+                    <p class="text-lg font-bold">Thơm Lừng Mùi Mít - Ngọt Bùi Chuối Sấy</p>
+                    <p class="text-xs text-white/90">Nguyên vị tự nhiên • Giòn tan từng thớ quả</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Floating badge 1: Giòn rụm khó cưỡng -->
+              <div class="absolute top-8 left-8 bg-white/95 backdrop-blur-md px-4 py-2.5 rounded-2xl shadow-lg border border-moc-green/30 flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-moc-green text-white flex items-center justify-center font-black text-lg">
+                  <i class="fa-solid fa-fire"></i>
+                </div>
+                <div>
+                  <div class="text-xs text-moc-gray uppercase font-semibold">Cảm giác thưởng thức</div>
+                  <div class="text-sm font-extrabold text-moc-brown">Giòn Rụm Xôm Xốp</div>
+                </div>
+              </div>
+
+              <!-- Floating badge 2: 100% Nông sản Việt -->
+              <div class="absolute bottom-8 right-8 bg-white/95 backdrop-blur-md px-4 py-2.5 rounded-2xl shadow-lg border border-moc-yellow/40 flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-moc-yellow text-moc-brown flex items-center justify-center font-black text-lg">
+                  <i class="fa-solid fa-leaf"></i>
+                </div>
+                <div>
+                  <div class="text-xs text-moc-gray uppercase font-semibold">Tự hào nông sản</div>
+                  <div class="text-sm font-extrabold text-moc-brown">100% Nguyên Liệu Việt</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Mini Thumbnails row representing products -->
+            <div class="mt-4 grid grid-cols-4 gap-2.5">
+              <div class="bg-white p-2 rounded-xl border border-moc-green/20 text-center shadow-xs hover:border-moc-green transition-colors">
+                <img src="./chuoi_say.png" onerror="this.onerror=null; this.src='./chuối sấy.png';" alt="Chuối sấy" class="w-10 h-10 mx-auto rounded-lg object-cover mb-1">
+                <span class="text-[10px] font-bold block text-moc-brown truncate">Chuối sấy</span>
+              </div>
+              <div class="bg-white p-2 rounded-xl border border-moc-green/20 text-center shadow-xs hover:border-moc-green transition-colors">
+                <img src="./dau_say.jpg" onerror="this.onerror=null; this.src='./dâu sấy.jpg';" alt="Dâu tây sấy" class="w-10 h-10 mx-auto rounded-lg object-cover mb-1">
+                <span class="text-[10px] font-bold block text-moc-brown truncate">Dâu tây sấy</span>
+              </div>
+              <div class="bg-white p-2 rounded-xl border border-moc-green/20 text-center shadow-xs hover:border-moc-green transition-colors">
+                <img src="./khoai_lang_say.jpg" onerror="this.onerror=null; this.src='./khoai lang sấy.jpg';" alt="Khoai lang sấy" class="w-10 h-10 mx-auto rounded-lg object-cover mb-1">
+                <span class="text-[10px] font-bold block text-moc-brown truncate">Khoai lang sấy</span>
+              </div>
+              <div class="bg-white p-2 rounded-xl border border-moc-green/20 text-center shadow-xs hover:border-moc-green transition-colors">
+                <img src="./say_thap_cam.jpg" onerror="this.onerror=null; this.src='./sấy thập cẩm.jpg';" alt="Thập cẩm sấy" class="w-10 h-10 mx-auto rounded-lg object-cover mb-1">
+                <span class="text-[10px] font-bold block text-moc-brown truncate">Thập cẩm sấy</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================================
+       PHẦN 2: SOCIAL PROOF & TRUST (Xây dựng niềm tin ban đầu – Trust)
+       ======================================================== -->
+  <section id="reviews" class="py-14 bg-white border-y border-moc-green/15 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Trust Badges Bar: Minh bạch, Thực tế, Không phô trương -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 pb-12 border-b border-moc-green/10">
+        
+        <div class="flex items-center gap-4">
+          <div class="w-12 h-12 rounded-2xl bg-moc-green-light flex items-center justify-center text-moc-green text-xl shrink-0">
+            <i class="fa-solid fa-box-check"></i>
+          </div>
+          <div>
+            <h4 class="text-sm font-bold text-moc-brown">Đóng Gói Cẩn Thận</h4>
+            <p class="text-xs text-moc-gray">Túi zip 2 lớp tráng bạc, chống ẩm và giữ giòn tối đa.</p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-4">
+          <div class="w-12 h-12 rounded-2xl bg-moc-yellow/20 flex items-center justify-center text-moc-brown text-xl shrink-0">
+            <i class="fa-solid fa-clipboard-check"></i>
+          </div>
+          <div>
+            <h4 class="text-sm font-bold text-moc-brown">Thông Tin Minh Bạch</h4>
+            <p class="text-xs text-moc-gray">Thành phần, ngày sản xuất và hạn dùng in rõ ràng trên bao bì.</p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-4">
+          <div class="w-12 h-12 rounded-2xl bg-moc-green-light flex items-center justify-center text-moc-green text-xl shrink-0">
+            <i class="fa-solid fa-arrows-rotate"></i>
+          </div>
+          <div>
+            <h4 class="text-sm font-bold text-moc-brown">Hỗ Trợ Đổi Trả</h4>
+            <p class="text-xs text-moc-gray">Đổi mới ngay nếu hàng bị mềm ỉu hoặc bể vỡ do vận chuyển.</p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-4">
+          <div class="w-12 h-12 rounded-2xl bg-orange-100 flex items-center justify-center text-orange-600 text-xl shrink-0">
+            <i class="fa-solid fa-truck-ramp-box"></i>
+          </div>
+          <div>
+            <h4 class="text-sm font-bold text-moc-brown">Vận Chuyển Tiêu Chuẩn</h4>
+            <p class="text-xs text-moc-gray">Theo quy trình đóng gói & giao nhận của Facebook & TikTok Shop.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Verified Social Proof & Customer Reviews Preview -->
+      <div class="pt-12">
+        <div class="text-center max-w-2xl mx-auto mb-10">
+          <span class="text-xs font-bold uppercase tracking-wider text-moc-green bg-moc-green-light px-3 py-1 rounded-full">
+            Trải nghiệm thực tế
+          </span>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-moc-brown mt-3">
+            Mộc Sấy Trong Mắt Khách Hàng
+          </h2>
+          <p class="text-sm text-moc-gray mt-2">
+            Phản hồi thực tế từ những bạn trẻ yêu thích món ăn vặt lành mạnh và tự nhiên tại Mộc Sấy.
+          </p>
+        </div>
+
+        <!-- Reviews Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          
+          <!-- Review Card 1 -->
+          <div class="bg-moc-cream-card p-6 rounded-3xl border border-moc-green/20 shadow-soft flex flex-col justify-between hover:-translate-y-1 transition-transform duration-300">
+            <div>
+              <div class="flex items-center justify-between mb-4">
+                <div class="flex items-center gap-1 text-moc-yellow text-sm">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="inline-flex items-center gap-1 text-[11px] font-semibold text-blue-600 bg-blue-50 px-2 py-0.5 rounded-md">
+                  <i class="fa-brands fa-facebook"></i> Đã mua qua Facebook
+                </span>
+              </div>
+              <p class="text-sm text-moc-brown italic leading-relaxed">
+                "Dâu tây sấy mở túi ra thơm nức mũi! Từng quả dâu đỏ mọng, vị chua ngọt hài hoà mà không bị ngọt gắt vị đường hoá học. Làm việc buổi chiều buồn ngủ nhâm nhi hết nửa gói lúc nào không hay luôn!"
+              </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-moc-green/10 flex items-center gap-3">
+              <div class="w-10 h-10 rounded-full bg-moc-green/20 flex items-center justify-center text-moc-green font-bold text-sm">
+                LH
+              </div>
+              <div>
+                <h5 class="text-xs font-bold text-moc-brown">Linh Hoàng</h5>
+                <p class="text-[11px] text-moc-gray">Nhân viên văn phòng, Hà Nội</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review Card 2 -->
+          <div class="bg-moc-cream-card p-6 rounded-3xl border border-moc-green/20 shadow-soft flex flex-col justify-between hover:-translate-y-1 transition-transform duration-300">
+            <div>
+              <div class="flex items-center justify-between mb-4">
+                <div class="flex items-center gap-1 text-moc-yellow text-sm">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="inline-flex items-center gap-1 text-[11px] font-semibold text-neutral-800 bg-neutral-100 px-2 py-0.5 rounded-md">
+                  <i class="fa-brands fa-tiktok"></i> Mua qua TikTok Live
+                </span>
+              </div>
+              <p class="text-sm text-moc-brown italic leading-relaxed">
+                "Thấy Mộc Sấy trên live TikTok nhìn giòn quá nên đặt thử combo chuối + khoai tím. Giao hàng bọc bóng khí rất kỹ, không bị vụn nát. Vị bùi bùi tự nhiên, túi zip tiện lợi ăn không hết khóa lại vẫn giòn tan."
+              </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-moc-green/10 flex items-center gap-3">
+              <div class="w-10 h-10 rounded-full bg-moc-yellow/30 flex items-center justify-center text-moc-brown font-bold text-sm">
+                TA
+              </div>
+              <div>
+                <h5 class="text-xs font-bold text-moc-brown">Tuấn Anh</h5>
+                <p class="text-[11px] text-moc-gray">Sinh viên ĐH Kinh Tế, TP.HCM</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review Card 3: Feedback Placeholder Khu vực chờ cập nhật -->
+          <div class="bg-moc-cream-card p-6 rounded-3xl border border-dashed border-moc-green/40 shadow-soft flex flex-col justify-between hover:-translate-y-1 transition-transform duration-300 bg-gradient-to-br from-white to-moc-green-light/30">
+            <div>
+              <div class="flex items-center justify-between mb-4">
+                <div class="flex items-center gap-1 text-moc-green text-sm">
+                  <i class="fa-solid fa-shield-heart"></i>
+                  <span class="text-xs font-bold ml-1 text-moc-green-dark">Kênh Đánh Giá Mộc Sấy</span>
+                </div>
+                <span class="text-[11px] font-medium text-moc-gray bg-white px-2 py-0.5 rounded-md border border-moc-green/20">
+                  Cập nhật theo đơn
+                </span>
+              </div>
+              <p class="text-sm text-moc-brown leading-relaxed">
+                "Mộc Sấy cam kết tôn trọng sự minh bạch. Tất cả đánh giá sao và bình luận đều được tổng hợp trực tiếp từ tin nhắn Facebook & TikTok Shop sau mỗi lần hoàn tất đơn hàng."
+              </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-moc-green/10 flex items-center justify-between">
+              <span class="text-xs text-moc-brown-light font-semibold">Bạn đã thử Mộc Sấy chưa?</span>
+              <a href="#products" class="text-xs font-bold text-moc-green hover:underline">Gửi đánh giá &rarr;</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================================
+       PHẦN 3: FEATURES / BENEFITS (Kích thích sự quan tâm & mong muốn – Interest & Desire)
+       ======================================================== -->
+  <section id="benefits" class="py-20 bg-moc-cream relative overflow-hidden">
+    <!-- Background element -->
+    <div class="absolute top-1/2 left-0 -translate-y-1/2 w-80 h-80 bg-moc-green/10 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Title -->
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="inline-block px-3 py-1 rounded-full text-xs font-bold tracking-wider text-moc-green-dark bg-moc-green-light border border-moc-green/30 uppercase">
+          Giá Trị Cốt Lõi Từ Mộc Sấy
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-black text-moc-brown tracking-tight mt-3">
+          3 Giá Trị Làm Nên Mộc Sấy
+        </h2>
+        <p class="text-base text-moc-brown-light mt-3 leading-relaxed">
+          Chúng tôi không cố làm những điều màu mè. Mộc Sấy tập trung vào điều quan trọng nhất: giữ nguyên vẹn sự tinh tuý, giòn xốp và ngọt lành từ mảnh đất quê hương.
+        </p>
+      </div>
+
+      <!-- 3 Pillars Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- Pillar 1: Hương vị hấp dẫn -->
+        <div class="bg-white rounded-3xl p-8 border border-moc-green/20 shadow-card hover:shadow-hover transition-all duration-300 flex flex-col justify-between group">
+          <div class="space-y-4">
+            <div class="w-16 h-16 rounded-2xl bg-moc-yellow/30 text-moc-brown flex items-center justify-center text-2xl group-hover:scale-110 group-hover:bg-moc-yellow transition-all duration-300">
+              <i class="fa-solid fa-cookie-bite"></i>
+            </div>
+            <div class="inline-block px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-moc-cream text-moc-brown-light">
+              Trụ cột 01 • Cảm Giác Vị Giác
+            </div>
+            <h3 class="text-xl font-bold text-moc-brown group-hover:text-moc-green transition-colors">
+              Hương Vị Thơm Ngon, Giòn Rụm Tự Nhiên
+            </h3>
+            <p class="text-sm text-moc-brown-light leading-relaxed">
+              Khám phá nhiều hương vị hấp dẫn từ trái cây và nông sản sấy giòn, cho những lần nhâm nhi thêm thú vị.
+            </p>
+          </div>
+          <div class="pt-6 mt-6 border-t border-moc-green/10 flex items-center text-xs font-bold text-moc-green">
+            <span>Giòn lâu • Ngọt thanh • Đậm vị mộc</span>
+          </div>
+        </div>
+
+        <!-- Pillar 2: Nguyên liệu và chất lượng -->
+        <div class="bg-white rounded-3xl p-8 border border-moc-green/20 shadow-card hover:shadow-hover transition-all duration-300 flex flex-col justify-between group">
+          <div class="space-y-4">
+            <div class="w-16 h-16 rounded-2xl bg-moc-green-light text-moc-green flex items-center justify-center text-2xl group-hover:scale-110 group-hover:bg-moc-green group-hover:text-white transition-all duration-300">
+              <i class="fa-solid fa-leaf"></i>
+            </div>
+            <div class="inline-block px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-moc-cream text-moc-brown-light">
+              Trụ cột 02 • Nguồn Gốc Sạch
+            </div>
+            <h3 class="text-xl font-bold text-moc-brown group-hover:text-moc-green transition-colors">
+              Nông Sản Tuyển Chọn, Rõ Nguồn Gốc
+            </h3>
+            <p class="text-sm text-moc-brown-light leading-relaxed">
+              Ưu tiên nguyên liệu có nguồn gốc rõ ràng và lựa chọn nhà cung cấp phù hợp để mang đến sản phẩm chỉn chu cho khách hàng.
+            </p>
+          </div>
+          <div class="pt-6 mt-6 border-t border-moc-green/10 flex items-center text-xs font-bold text-moc-green">
+            <span>Rõ nguồn gốc • Minh bạch • An tâm</span>
+          </div>
+        </div>
+
+        <!-- Pillar 3: Tiện lợi trong cuộc sống -->
+        <div class="bg-white rounded-3xl p-8 border border-moc-green/20 shadow-card hover:shadow-hover transition-all duration-300 flex flex-col justify-between group">
+          <div class="space-y-4">
+            <div class="w-16 h-16 rounded-2xl bg-orange-100 text-orange-600 flex items-center justify-center text-2xl group-hover:scale-110 group-hover:bg-orange-500 group-hover:text-white transition-all duration-300">
+              <i class="fa-solid fa-mug-hot"></i>
+            </div>
+            <div class="inline-block px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-moc-cream text-moc-brown-light">
+              Trụ cột 03 • Phong Cách Sống
+            </div>
+            <h3 class="text-xl font-bold text-moc-brown group-hover:text-moc-green transition-colors">
+              Món Ngon Tiện Lợi, Nhâm Nhi Mọi Lúc
+            </h3>
+            <p class="text-sm text-moc-brown-light leading-relaxed">
+              Thiết kế bao bì tiện lợi, dễ mang theo khi học tập, làm việc, xem phim hoặc đi chơi cùng bạn bè.
+            </p>
+          </div>
+          <div class="pt-6 mt-6 border-t border-moc-green/10 flex items-center text-xs font-bold text-moc-green">
+            <span>Túi zip tiện lợi • Dễ mang theo • Nhẹ bụng</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Story Spotlight banner -->
+      <div id="about" class="mt-16 bg-white rounded-3xl p-8 md:p-12 border border-moc-green/20 shadow-soft">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          <div class="lg:col-span-5">
+            <div class="relative rounded-2xl overflow-hidden shadow-md group">
+              <img src="./moc_say_giua_sac_mau_trai_cay_kho.png" onerror="this.onerror=null; this.src='./Mộc Sấy giữa sắc màu trái cây khô.png';" alt="Mộc Sấy giữa sắc màu trái cây khô" class="w-full h-80 sm:h-96 object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="absolute bottom-4 left-4 bg-white/95 px-3.5 py-2 rounded-xl text-xs font-bold text-moc-brown shadow-sm flex items-center gap-2">
+                <span>🌾 Mộc Sấy giữa sắc màu trái cây khô</span>
+              </div>
+            </div>
+          </div>
+          <div class="lg:col-span-7 space-y-4">
+            <span class="text-xs font-extrabold uppercase text-moc-green tracking-wider">Câu Chuyện Thương Hiệu</span>
+            <h3 class="text-2xl sm:text-3xl font-extrabold text-moc-brown">
+              Câu Chuyện Đằng Sau Mộc Sấy
+            </h3>
+            <div class="text-sm text-moc-brown-light leading-relaxed space-y-3">
+              <p>
+                Mộc Sấy bắt đầu từ mong muốn mang hương vị mộc mạc của nông sản Việt đến gần hơn với mọi người. Chúng mình lựa chọn những nguyên liệu quen thuộc, kết hợp cùng quy trình sấy phù hợp để tạo nên những món ăn vặt thơm ngon, hấp dẫn.
+              </p>
+              <p>
+                Với Mộc Sấy, sự giản đơn nằm trong từng nguyên liệu, còn trọn vị là trải nghiệm mà chúng mình mong muốn gửi gắm trong mỗi sản phẩm.
+              </p>
+            </div>
+            <div class="pt-2 flex flex-wrap gap-4">
+              <a href="#products" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-moc-yellow hover:bg-moc-yellow-hover text-moc-brown font-bold text-sm shadow-sm transition-all">
+                <i class="fa-solid fa-basket-shopping"></i> Khám Phá Sản Phẩm
+              </a>
+              <a href="#faq" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-moc-cream hover:bg-moc-green-light border border-moc-green/30 text-moc-brown font-bold text-sm transition-all">
+                <i class="fa-solid fa-circle-question"></i> Tìm Hiểu Về Mộc Sấy
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ========================================================
+       PHẦN 4: OFFER & PRICE (Tạo động lực mua hàng – Action)
+       ======================================================== -->
+  <section id="products" class="py-20 bg-white border-t border-moc-green/20 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Special Offer Banner / Countdown Timer (Ưu đãi mở bán) -->
+      <div class="mb-14 rounded-3xl bg-gradient-to-r from-moc-green to-moc-green-dark text-white p-6 sm:p-10 shadow-hover relative overflow-hidden">
+        <!-- Background shimmer decoration -->
+        <div class="absolute -right-10 -bottom-10 w-64 h-64 bg-moc-yellow/20 rounded-full blur-2xl"></div>
+        
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative z-10">
+          <div class="lg:col-span-7 space-y-3">
+            <span class="inline-block px-3 py-1 rounded-full text-xs font-black uppercase bg-moc-yellow text-moc-brown tracking-wide">
+              🔥 Ưu Đãi Mở Gian Hàng Mới
+            </span>
+            <h3 class="text-2xl sm:text-3xl font-black">
+              Tuần Lễ Khai Trương: Ăn Vặt Thả Ga – Miễn Phí Giao Hàng!
+            </h3>
+            <p class="text-white/90 text-sm max-w-xl">
+              Nhập mã giảm giá khi đặt qua <b>TikTok Shop</b> & <b>Facebook</b> để nhận ngay voucher giảm đến <b>25%</b> cùng chương trình freeship toàn quốc áp dụng cho tất cả các đơn hàng từ hôm nay.
+            </p>
+          </div>
+
+          <!-- Countdown Timer Display -->
+          <div class="lg:col-span-5 bg-white/10 backdrop-blur-md p-4 sm:p-6 rounded-2xl border border-white/20 text-center">
+            <div class="text-xs uppercase font-bold tracking-widest text-moc-yellow mb-3">
+              Ưu Đãi Kết Thúc Sau:
+            </div>
+            <div class="grid grid-cols-4 gap-2 text-moc-brown">
+              <div class="bg-white rounded-xl p-2 shadow-sm">
+                <span id="countdownDays" class="block text-xl sm:text-2xl font-black text-moc-green-dark">02</span>
+                <span class="text-[10px] uppercase font-bold text-moc-gray">Ngày</span>
+              </div>
+              <div class="bg-white rounded-xl p-2 shadow-sm">
+                <span id="countdownHours" class="block text-xl sm:text-2xl font-black text-moc-green-dark">14</span>
+                <span class="text-[10px] uppercase font-bold text-moc-gray">Giờ</span>
+              </div>
+              <div class="bg-white rounded-xl p-2 shadow-sm">
+                <span id="countdownMinutes" class="block text-xl sm:text-2xl font-black text-moc-green-dark">35</span>
+                <span class="text-[10px] uppercase font-bold text-moc-gray">Phút</span>
+              </div>
+              <div class="bg-white rounded-xl p-2 shadow-sm">
+                <span id="countdownSeconds" class="block text-xl sm:text-2xl font-black text-moc-green-dark">50</span>
+                <span class="text-[10px] uppercase font-bold text-moc-gray">Giây</span>
+              </div>
+            </div>
+            <p class="text-[11px] text-white/80 mt-3 italic">* Số lượng quà tặng và voucher có giới hạn theo từng đợt khuyến mãi.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Section Header & Filter Tabs -->
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
+        <div>
+          <span class="text-xs font-bold uppercase tracking-wider text-moc-green bg-moc-green-light px-3 py-1 rounded-full">
+            Menu Sản Phẩm
+          </span>
+          <h2 class="text-3xl font-black text-moc-brown mt-3">
+            Trái Cây Sấy Giòn Mộc Sấy
+          </h2>
+          <p class="text-sm text-moc-gray mt-1">
+            Chọn món yêu thích của bạn hoặc bấm vào để đặt mua trực tiếp qua Facebook & TikTok Shop.
+          </p>
+        </div>
+
+        <!-- Filter category buttons (Interactive) -->
+        <div class="flex flex-wrap items-center gap-2 bg-moc-cream p-1.5 rounded-2xl border border-moc-green/20" id="filterTabs">
+          <button data-filter="all" class="filter-btn px-4 py-2 rounded-xl text-xs font-bold transition-all bg-moc-green text-white shadow-sm">
+            Tất Cả
+          </button>
+          <button data-filter="traicay" class="filter-btn px-4 py-2 rounded-xl text-xs font-bold transition-all text-moc-brown hover:bg-white">
+            Trái Cây Sấy
+          </button>
+          <button data-filter="cuqua" class="filter-btn px-4 py-2 rounded-xl text-xs font-bold transition-all text-moc-brown hover:bg-white">
+            Củ Quả Sấy
+          </button>
+          <button data-filter="combo" class="filter-btn px-4 py-2 rounded-xl text-xs font-bold transition-all text-moc-brown hover:bg-white">
+            Combo Tiết Kiệm
+          </button>
+        </div>
+      </div>
+
+      <!-- Product Cards Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6" id="productList">
+        
+        <!-- Product 1: Dâu Tây Sấy (Best Seller) -->
+        <div class="product-card bg-moc-cream-card rounded-3xl border border-moc-green/20 shadow-card hover:shadow-hover transition-all duration-300 flex flex-col justify-between overflow-hidden group" data-category="traicay">
+          <div class="relative overflow-hidden">
+            <!-- Badge tag -->
+            <span class="absolute top-3 left-3 z-10 px-2.5 py-1 rounded-xl bg-moc-yellow text-moc-brown font-extrabold text-[11px] shadow-sm flex items-center gap-1">
+              <i class="fa-solid fa-fire text-orange-600"></i> Bán Chạy Nhất
+            </span>
+            <div class="h-56 w-full bg-white overflow-hidden">
+              <img src="./dau_say.jpg" onerror="this.onerror=null; this.src='./dâu sấy.jpg';" alt="Dâu tây sấy Mộc Sấy" class="w-full h-full object-cover group-hover:scale-108 transition-transform duration-500">
+            </div>
+          </div>
+
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <div>
+              <div class="flex items-center justify-between text-xs text-moc-gray mb-1">
+                <span>Khối lượng: <b>250g / 500g</b></span>
+                <span class="text-moc-yellow font-bold"><i class="fa-solid fa-star"></i> 4.9</span>
+              </div>
+              <h3 class="text-base font-black text-moc-brown group-hover:text-moc-green transition-colors">
+                Dâu Tây Sấy Mộc Sấy
+              </h3>
+              <p class="text-xs text-moc-brown-light line-clamp-2 mt-1">
+                Dâu tây đỏ mọng, vị chua ngọt hấp dẫn, thơm ngon trong từng miếng. Món ăn vặt tiện lợi cho những lúc bạn muốn nhâm nhi chút ngon mỗi ngày.
+              </p>
+            </div>
+
+            <div class="pt-2 border-t border-moc-green/10">
+              <div class="flex items-baseline gap-2 mb-3">
+                <span class="text-lg font-black text-moc-green-dark">65.000đ</span>
+                <span class="text-xs text-moc-gray line-through">85.000đ</span>
+                <span class="text-[10px] font-bold text-red-600 bg-red-50 px-1.5 py-0.5 rounded">-23%</span>
+              </div>
+
+              <!-- Dual Channel CTA Buttons -->
+              <div class="grid grid-cols-2 gap-2">
+                <button onclick="openPurchaseModal('Dâu Tây Sấy Mộc Sấy', '65.000đ', './dau_say.jpg')" class="w-full py-2.5 px-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+                  <i class="fa-brands fa-facebook"></i> Facebook
+                </button>
+                <button onclick="openPurchaseModal('Dâu Tây Sấy Mộc Sấy', '65.000đ', './dau_say.jpg')" class="w-full py-2.5 px-2 rounded-xl bg-black hover:bg-neutral-800 text-white font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+                  <i class="fa-brands fa-tiktok"></i> TikTok
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2: Chuối Sấy Giòn -->
+        <div class="product-card bg-moc-cream-card rounded-3xl border border-moc-green/20 shadow-card hover:shadow-hover transition-all duration-300 flex flex-col justify-between overflow-hidden group" data-category="traicay">
+          <div class="relative overflow-hidden">
+            <span class="absolute top-3 left-3 z-10 px-2.5 py-1 rounded-xl bg-moc-green text-white font-extrabold text-[11px] shadow-sm flex items-center gap-1">
+              <i class="fa-solid fa-leaf"></i> 100% Tự Nhiên
+            </span>
+            <div class="h-56 w-full bg-white overflow-hidden">
+              <img src="./chuoi_say.png" onerror="this.onerror=null; this.src='./chuối sấy.png';" alt="Chuối sấy giòn Mộc Sấy" class="w-full h-full object-cover group-hover:scale-108 transition-transform duration-500">
+            </div>
+          </div>
+
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <div>
+              <div class="flex items-center justify-between text-xs text-moc-gray mb-1">
+                <span>Khối lượng: <b>250g / 500g</b></span>
+                <span class="text-moc-yellow font-bold"><i class="fa-solid fa-star"></i> 4.9</span>
+              </div>
+              <h3 class="text-base font-black text-moc-brown group-hover:text-moc-green transition-colors">
+                Chuối Sấy Giòn Mộc Sấy
+              </h3>
+              <p class="text-xs text-moc-brown-light line-clamp-2 mt-1">
+                Lát chuối đều tăm tắp, giòn tan đậm đà vị ngọt bùi thuần khiết, nhai xôm xốp đã tai mà không sợ ngấy.
+              </p>
+            </div>
+
+            <div class="pt-2 border-t border-moc-green/10">
+              <div class="flex items-baseline gap-2 mb-3">
+                <span class="text-lg font-black text-moc-green-dark">45.000đ</span>
+                <span class="text-xs text-moc-gray line-through">60.000đ</span>
+                <span class="text-[10px] font-bold text-red-600 bg-red-50 px-1.5 py-0.5 rounded">-25%</span>
+              </div>
+
+              <div class="grid grid-cols-2 gap-2">
+                <button onclick="openPurchaseModal('Chuối Sấy Giòn Mộc Sấy', '45.000đ', './chuoi_say.png')" class="w-full py-2.5 px-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+                  <i class="fa-brands fa-facebook"></i> Facebook
+                </button>
+                <button onclick="openPurchaseModal('Chuối Sấy Giòn Mộc Sấy', '45.000đ', './chuoi_say.png')" class="w-full py-2.5 px-2 rounded-xl bg-black hover:bg-neutral-800 text-white font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+                  <i class="fa-brands fa-tiktok"></i> TikTok
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3: Khoai Lang Tím Sấy Giòn -->
+        <div class="product-card bg-moc-cream-card rounded-3xl border border-moc-green/20 shadow-card hover:shadow-hover transition-all duration-300 flex flex-col justify-between overflow-hidden group" data-category="cuqua">
+          <div class="relative overflow-hidden">
+            <span class="absolute top-3 left-3 z-10 px-2.5 py-1 rounded-xl bg-purple-100 text-purple-700 font-extrabold text-[11px] shadow-sm flex items-center gap-1">
+              <i class="fa-solid fa-seedling"></i> Giàu Chất Xơ
+            </span>
+            <div class="h-56 w-full bg-white overflow-hidden">
+              <img src="./khoai_lang_say.jpg" onerror="this.onerror=null; this.src='./khoai lang sấy.jpg';" alt="Khoai lang sấy giòn Mộc Sấy" class="w-full h-full object-cover group-hover:scale-108 transition-transform duration-500">
+            </div>
+          </div>
+
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <div>
+              <div class="flex items-center justify-between text-xs text-moc-gray mb-1">
+                <span>Khối lượng: <b>250g / 500g</b></span>
+                <span class="text-moc-yellow font-bold"><i class="fa-solid fa-star"></i> 4.8</span>
+              </div>
+              <h3 class="text-base font-black text-moc-brown group-hover:text-moc-green transition-colors">
+                Khoai Lang Tím Sấy Giòn
+              </h3>
+              <p class="text-xs text-moc-brown-light line-clamp-2 mt-1">
+                Màu sắc tím tự nhiên hút mắt, vị ngọt nhẹ bùi béo, sấy giòn rụm không dầu mỡ, cực kỳ thích hợp cho người healthy.
+              </p>
+            </div>
+
+            <div class="pt-2 border-t border-moc-green/10">
+              <div class="flex items-baseline gap-2 mb-3">
+                <span class="text-lg font-black text-moc-green-dark">50.000đ</span>
+                <span class="text-xs text-moc-gray line-through">65.000đ</span>
+                <span class="text-[10px] font-bold text-red-600 bg-red-50 px-1.5 py-0.5 rounded">-23%</span>
+              </div>
+
+              <div class="grid grid-cols-2 gap-2">
+                <button onclick="openPurchaseModal('Khoai Lang Tím Sấy Giòn', '50.000đ', './khoai_lang_say.jpg')" class="w-full py-2.5 px-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+                  <i class="fa-brands fa-facebook"></i> Facebook
+                </button>
+                <button onclick="openPurchaseModal('Khoai Lang Tím Sấy Giòn', '50.000đ', './khoai_lang_say.jpg')" class="w-full py-2.5 px-2 rounded-xl bg-black hover:bg-neutral-800 text-white font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+                  <i class="fa-brands fa-tiktok"></i> TikTok
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4: Combo Thập Cẩm Sấy Giòn Đặc Biệt -->
+        <div class="product-card bg-moc-cream-card rounded-3xl border-2 border-moc-yellow shadow-card hover:shadow-hover transition-all duration-300 flex flex-col justify-between overflow-hidden group" data-category="combo">
+          <div class="relative overflow-hidden">
+            <span class="absolute top-3 left-3 z-10 px-2.5 py-1 rounded-xl bg-red-500 text-white font-extrabold text-[11px] shadow-sm flex items-center gap-1">
+              <i class="fa-solid fa-crown text-moc-yellow"></i> Siêu Tiết Kiệm
+            </span>
+            <div class="h-56 w-full bg-white overflow-hidden">
+              <img src="./say_thap_cam.jpg" onerror="this.onerror=null; this.src='./sấy thập cẩm.jpg';" alt="Combo thập cẩm sấy giòn Mộc Sấy" class="w-full h-full object-cover group-hover:scale-108 transition-transform duration-500">
+            </div>
+          </div>
+
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <div>
+              <div class="flex items-center justify-between text-xs text-moc-gray mb-1">
+                <span>Khối lượng: <b>Gói 500g</b></span>
+                <span class="text-moc-yellow font-bold"><i class="fa-solid fa-star"></i> 5.0</span>
+              </div>
+              <h3 class="text-base font-black text-moc-brown group-hover:text-moc-green transition-colors">
+                Thập Cẩm Sấy Giòn Mộc Sấy
+              </h3>
+              <p class="text-xs text-moc-brown-light line-clamp-2 mt-1">
+                Tổng hợp 5 loại nông sản sấy giòn được yêu thích nhất (Mít, Chuối, Khoai môn, Khoai lang tím, Cà rốt).
+              </p>
+            </div>
+
+            <div class="pt-2 border-t border-moc-green/10">
+              <div class="flex items-baseline gap-2 mb-3">
+                <span class="text-lg font-black text-moc-green-dark">89.000đ</span>
+                <span class="text-xs text-moc-gray line-through">120.000đ</span>
+                <span class="text-[10px] font-bold text-red-600 bg-red-50 px-1.5 py-0.5 rounded">-26%</span>
+              </div>
+
+              <div class="grid grid-cols-2 gap-2">
+                <button onclick="openPurchaseModal('Thập Cẩm Sấy Giòn Mộc Sấy', '89.000đ', './say_thap_cam.jpg')" class="w-full py-2.5 px-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+                  <i class="fa-brands fa-facebook"></i> Facebook
+                </button>
+                <button onclick="openPurchaseModal('Thập Cẩm Sấy Giòn Mộc Sấy', '89.000đ', './say_thap_cam.jpg')" class="w-full py-2.5 px-2 rounded-xl bg-black hover:bg-neutral-800 text-white font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+                  <i class="fa-brands fa-tiktok"></i> TikTok
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Live Notification for Custom Pricing / Real Store Notice -->
+      <div class="mt-12 bg-moc-cream p-5 rounded-2xl border border-moc-green/30 text-center max-w-2xl mx-auto">
+        <p class="text-xs text-moc-brown-light leading-relaxed">
+          <i class="fa-solid fa-circle-info text-moc-green mr-1.5"></i>
+          <b>Lưu ý minh bạch:</b> Giá bán và các chương trình khuyến mãi thực tế có thể thay đổi tùy theo từng đợt ưu đãi trên Facebook và TikTok Shop của Mộc Sấy. Hãy nhấp vào sản phẩm để cập nhật giá ưu đãi tốt nhất ngay hôm nay!
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ========================================================
+       PHẦN 5: FOOTER & TRUST (Thông tin hỗ trợ & An tâm mua sắm – Reassurance)
+       ======================================================== -->
+  
+  <!-- FAQ Accordion Section -->
+  <section id="faq" class="py-16 bg-moc-cream border-t border-moc-green/20">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center mb-12">
+        <span class="text-xs font-bold uppercase tracking-wider text-moc-green bg-moc-green-light px-3 py-1 rounded-full">
+          Giải Đáp Mọi Thắc Mắc
+        </span>
+        <h2 class="text-3xl font-black text-moc-brown mt-3">
+          Câu Hỏi Thường Gặp Về Mộc Sấy
+        </h2>
+        <p class="text-sm text-moc-gray mt-2">
+          Mọi điều bạn cần biết về sản phẩm, đóng gói, bảo quản và vận chuyển.
+        </p>
+      </div>
+
+      <!-- FAQ Items List -->
+      <div class="space-y-4">
+        
+        <!-- FAQ 1 -->
+        <div class="faq-item bg-white rounded-2xl border border-moc-green/20 shadow-xs overflow-hidden transition-all">
+          <button class="faq-toggle w-full px-6 py-4 text-left font-bold text-moc-brown flex justify-between items-center hover:text-moc-green focus:outline-none transition-colors">
+            <span class="text-sm sm:text-base">1. Trái cây sấy Mộc Sấy có sử dụng đường hay phẩm màu độc hại không?</span>
+            <i class="fa-solid fa-chevron-down text-moc-green transition-transform duration-300 text-sm"></i>
+          </button>
+          <div class="faq-content hidden px-6 pb-5 text-sm text-moc-brown-light leading-relaxed border-t border-moc-green/10 pt-3">
+            Mộc Sấy cam kết ưu tiên hương vị mộc mạc nguyên bản của nông sản Việt. Độ ngọt tự nhiên đến từ chính lượng đường có sẵn trong trái cây tươi chín mọng. Chúng tôi hoàn toàn không sử dụng phẩm màu công nghiệp hay hóa chất độc hại, an toàn cho cả gia đình.
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="faq-item bg-white rounded-2xl border border-moc-green/20 shadow-xs overflow-hidden transition-all">
+          <button class="faq-toggle w-full px-6 py-4 text-left font-bold text-moc-brown flex justify-between items-center hover:text-moc-green focus:outline-none transition-colors">
+            <span class="text-sm sm:text-base">2. Hạn sử dụng bao lâu và cách bảo quản sau khi đã mở túi zip?</span>
+            <i class="fa-solid fa-chevron-down text-moc-green transition-transform duration-300 text-sm"></i>
+          </button>
+          <div class="faq-content hidden px-6 pb-5 text-sm text-moc-brown-light leading-relaxed border-t border-moc-green/10 pt-3">
+            Sản phẩm có hạn sử dụng <b>06 tháng</b> kể từ ngày sản xuất in rõ trên bao bì. Sau khi mở túi thưởng thức, bạn chỉ cần miết chặt đường zip để tránh không khí ẩm lọt vào. Ngon nhất là bảo quản nơi khô ráo, thoáng mát hoặc để trong ngăn mát tủ lạnh để tăng độ giòn tan mát lạnh!
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="faq-item bg-white rounded-2xl border border-moc-green/20 shadow-xs overflow-hidden transition-all">
+          <button class="faq-toggle w-full px-6 py-4 text-left font-bold text-moc-brown flex justify-between items-center hover:text-moc-green focus:outline-none transition-colors">
+            <span class="text-sm sm:text-base">3. Khi đặt qua TikTok Shop hoặc Facebook thì bao lâu nhận được hàng?</span>
+            <i class="fa-solid fa-chevron-down text-moc-green transition-transform duration-300 text-sm"></i>
+          </button>
+          <div class="faq-content hidden px-6 pb-5 text-sm text-moc-brown-light leading-relaxed border-t border-moc-green/10 pt-3">
+            Thời gian giao hàng phụ thuộc vào đơn vị vận chuyển:
+            <ul class="list-disc list-inside mt-2 space-y-1 text-xs">
+              <li>Nội thành (Hà Nội / TP.HCM): Thường nhận trong vòng 1 - 2 ngày làm việc (có hỗ trợ giao hỏa tốc nếu có).</li>
+              <li>Các tỉnh thành khác: Khoảng 2 - 4 ngày làm việc. Bạn có thể theo dõi hành trình đơn hàng trực tiếp qua tin nhắn Facebook hoặc ứng dụng TikTok.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="faq-item bg-white rounded-2xl border border-moc-green/20 shadow-xs overflow-hidden transition-all">
+          <button class="faq-toggle w-full px-6 py-4 text-left font-bold text-moc-brown flex justify-between items-center hover:text-moc-green focus:outline-none transition-colors">
+            <span class="text-sm sm:text-base">4. Nếu nhận hàng bị mềm ỉu hoặc vỡ nát do vận chuyển thì xử lý thế nào?</span>
+            <i class="fa-solid fa-chevron-down text-moc-green transition-transform duration-300 text-sm"></i>
+          </button>
+          <div class="faq-content hidden px-6 pb-5 text-sm text-moc-brown-light leading-relaxed border-t border-moc-green/10 pt-3">
+            Mộc Sấy áp dụng <b>chính sách đổi trả 1-1 miễn phí</b> hoặc hỗ trợ hoàn tiền qua sàn nếu sản phẩm không may bị lọt khí, ỉu mềm hoặc bao bì hư hại trong quá trình trung chuyển. Quý khách vui lòng quay lại video khi mở gói hàng để đội ngũ hỗ trợ được nhanh nhất.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Main Footer -->
+  <footer class="bg-moc-brown text-moc-cream pt-16 pb-12 border-t-4 border-moc-green">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-moc-brown-light/30">
+        
+        <!-- Brand Info -->
+        <div class="lg:col-span-4 space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-12 h-12 rounded-xl overflow-hidden border-2 border-moc-green bg-white p-0.5">
+              <img src="./logo.jpg" alt="Mộc Sấy" class="w-full h-full object-cover rounded-lg" onerror="this.onerror=null; this.src='./Mộc Sấy - Đơn giản mà tròn vị LG.jpg';">
+            </div>
+            <div>
+              <span class="text-xl font-black tracking-tight text-white">MỘC SẤY</span>
+            </div>
+          </div>
+          
+          <p class="text-xs text-moc-cream/80 leading-relaxed">
+            Mộc Sấy hướng đến mang lại những sản phẩm trái cây và nông sản sấy mộc mạc, giòn rụm tự nhiên, gắn kết phong cách sống trẻ trung, hiện đại và lành mạnh.
+          </p>
+
+          <!-- Social channel links -->
+          <div class="pt-2 flex items-center gap-3">
+            <a href="https://www.facebook.com/share/1CNJh5EuMX/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-xl bg-blue-600/30 hover:bg-blue-600 text-blue-400 hover:text-white flex items-center justify-center transition-colors" title="Fanpage Facebook Mộc Sấy">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://www.tiktok.com/@mocsay_traicaysay?_r=1&_t=ZS-9AjFcgbGpRk" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-xl bg-white/10 hover:bg-white text-white hover:text-black flex items-center justify-center transition-colors" title="TikTok Mộc Sấy">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="lg:col-span-2 space-y-3">
+          <h4 class="text-sm font-bold text-white tracking-wider uppercase">Sản Phẩm</h4>
+          <ul class="space-y-2 text-xs text-moc-cream/80">
+            <li><a href="#products" class="hover:text-moc-green transition-colors">Dâu tây sấy</a></li>
+            <li><a href="#products" class="hover:text-moc-green transition-colors">Chuối sấy giòn</a></li>
+            <li><a href="#products" class="hover:text-moc-green transition-colors">Khoai lang tím sấy</a></li>
+            <li><a href="#products" class="hover:text-moc-green transition-colors">Thập cẩm sấy giòn</a></li>
+            <li><a href="#products" class="hover:text-moc-green transition-colors">Combo tiết kiệm</a></li>
+          </ul>
+        </div>
+
+        <!-- Support Policies -->
+        <div class="lg:col-span-3 space-y-3">
+          <h4 class="text-sm font-bold text-white tracking-wider uppercase">Chính Sách & Hỗ Trợ</h4>
+          <ul class="space-y-2 text-xs text-moc-cream/80">
+            <li><a href="#faq" class="hover:text-moc-green transition-colors">Chính sách giao nhận & đóng gói</a></li>
+            <li><a href="#faq" class="hover:text-moc-green transition-colors">Chính sách đổi trả 1-1</a></li>
+            <li><a href="#faq" class="hover:text-moc-green transition-colors">Cam kết bảo mật thông tin</a></li>
+            <li><a href="#faq" class="hover:text-moc-green transition-colors">Hướng dẫn bảo quản đúng cách</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="lg:col-span-3 space-y-3">
+          <h4 class="text-sm font-bold text-white tracking-wider uppercase">Thông Tin Liên Hệ</h4>
+          <div class="space-y-2 text-xs text-moc-cream/80">
+            <p class="flex items-start gap-2">
+              <i class="fa-solid fa-location-dot text-moc-green mt-0.5 shrink-0"></i>
+              <span><b>Cơ sở:</b> Phường Trấn Biên, tỉnh Đồng Nai, Việt Nam</span>
+            </p>
+            <p class="flex items-center gap-2">
+              <i class="fa-solid fa-phone text-moc-yellow shrink-0"></i>
+              <span><b>Hotline CSKH:</b> <a href="tel:0336652614" class="hover:text-moc-green transition-colors">0336652614</a></span>
+            </p>
+            <p class="flex items-center gap-2">
+              <i class="fa-solid fa-envelope text-moc-green shrink-0"></i>
+              <span><b>Email:</b> <a href="mailto:mocsay@gmail.com" class="hover:text-moc-green transition-colors">mocsay@gmail.com</a></span>
+            </p>
+            <p class="flex items-center gap-2">
+              <i class="fa-solid fa-clock text-moc-gray shrink-0"></i>
+              <span><b>Thời gian phản hồi:</b> 9g đến 21g</span>
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Copyright & Disclaimer -->
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-moc-cream/60 gap-4">
+        <p>© 2026 <b>Mộc Sấy</b>. Tất cả các quyền được bảo lưu.</p>
+        <p class="text-center sm:text-right">
+          Thiết kế tối ưu chuyển đổi (CRO) cho trải nghiệm mua sắm nhanh trên thiết bị di động.
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!-- ========================================================
+       FLOATING ACTION BAR FOR MOBILE (CRO Best Practice)
+       ======================================================== -->
+  <div class="fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-t border-moc-green/20 p-3 sm:hidden shadow-2xl flex items-center gap-2">
+    <a href="https://www.facebook.com/share/1CNJh5EuMX/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" class="flex-1 py-3 px-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs flex items-center justify-center gap-2 shadow-sm">
+      <i class="fa-brands fa-facebook"></i> Đặt Qua Facebook
+    </a>
+    <a href="https://www.tiktok.com/@mocsay_traicaysay?_r=1&_t=ZS-9AjFcgbGpRk" target="_blank" rel="noopener noreferrer" class="flex-1 py-3 px-3 rounded-xl bg-black hover:bg-neutral-800 text-white font-bold text-xs flex items-center justify-center gap-2 shadow-sm">
+      <i class="fa-brands fa-tiktok"></i> TikTok Shop
+    </a>
+  </div>
+
+
+  <!-- ========================================================
+       INTERACTIVE PURCHASE MODAL (Chuyển đổi mua hàng tức thì)
+       ======================================================== -->
+  <div id="purchaseModal" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm hidden flex items-center justify-center p-4">
+    <div class="bg-white rounded-3xl max-w-md w-full p-6 shadow-2xl border-2 border-moc-green relative animate-subtle-pulse transform transition-all">
+      
+      <!-- Close button -->
+      <button onclick="closePurchaseModal()" class="absolute top-4 right-4 text-moc-gray hover:text-moc-brown p-1 text-lg" aria-label="Đóng cửa sổ">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="text-center space-y-2">
+        <div class="w-20 h-20 rounded-2xl overflow-hidden mx-auto shadow-sm border-2 border-moc-green/30 bg-moc-cream">
+          <img id="modalProductImage" src="./dau_say.jpg" alt="Sản phẩm Mộc Sấy" class="w-full h-full object-cover">
+        </div>
+        <h3 class="text-lg font-black text-moc-brown" id="modalProductName">Dâu Tây Sấy Mộc Sấy</h3>
+        <p class="text-xs text-moc-gray">Đơn giá ưu đãi: <span class="text-moc-green-dark font-extrabold text-sm" id="modalProductPrice">65.000đ</span></p>
+      </div>
+
+      <!-- Voucher note -->
+      <div class="mt-4 p-3 bg-moc-cream rounded-xl border border-moc-yellow/40 text-xs text-moc-brown flex items-center gap-2">
+        <i class="fa-solid fa-tag text-moc-yellow text-sm"></i>
+        <span>Mẹo: Bạn có thể nhắn tin trực tiếp qua <b>Fanpage Facebook</b> hoặc mua nhanh tại <b>TikTok Shop</b> để nhận voucher giảm giá!</span>
+      </div>
+
+      <div class="mt-5 space-y-3">
+        <!-- Direct Facebook button -->
+        <a id="modalFbLink" href="https://www.facebook.com/share/1CNJh5EuMX/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" class="w-full py-3.5 px-4 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm flex items-center justify-center gap-2 shadow-sm transition-all">
+          <i class="fa-brands fa-facebook text-base"></i>
+          <span>Nhắn Tin Đặt Mua Trên Facebook</span>
+        </a>
+
+        <!-- Direct TikTok button -->
+        <a id="modalTiktokLink" href="https://www.tiktok.com/@mocsay_traicaysay?_r=1&_t=ZS-9AjFcgbGpRk" target="_blank" rel="noopener noreferrer" class="w-full py-3.5 px-4 rounded-xl bg-black hover:bg-neutral-800 text-white font-bold text-sm flex items-center justify-center gap-2 shadow-sm transition-all">
+          <i class="fa-brands fa-tiktok text-base"></i>
+          <span>Mua Sản Phẩm Này Trên TikTok Shop</span>
+        </a>
+      </div>
+
+      <div class="mt-4 text-center">
+        <button onclick="closePurchaseModal()" class="text-xs text-moc-gray hover:text-moc-brown underline">
+          Quay lại xem tiếp sản phẩm khác
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- ========================================================
+       JAVASCRIPT CHỨC NĂNG (Interactive UI & CRO Logic)
+       ======================================================== -->
+  <script>
+    // 1. Mobile Menu Toggle
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    const menuIcon = document.getElementById('menuIcon');
+
+    if (mobileMenuBtn && mobileMenu) {
+      mobileMenuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+        if (mobileMenu.classList.contains('hidden')) {
+          menuIcon.className = 'fa-solid fa-bars text-xl';
+        } else {
+          menuIcon.className = 'fa-solid fa-xmark text-xl';
+        }
+      });
+
+      // Close mobile menu on clicking any navigation link
+      document.querySelectorAll('.mobile-nav-link').forEach(link => {
+        link.addEventListener('click', () => {
+          mobileMenu.classList.add('hidden');
+          menuIcon.className = 'fa-solid fa-bars text-xl';
+        });
+      });
+    }
+
+    // 2. Product Category Filter Tabs
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const productCards = document.querySelectorAll('.product-card');
+
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        // Remove active class from all buttons
+        filterButtons.forEach(b => {
+          b.className = 'filter-btn px-4 py-2 rounded-xl text-xs font-bold transition-all text-moc-brown hover:bg-white';
+        });
+
+        // Set active class to clicked button
+        btn.className = 'filter-btn px-4 py-2 rounded-xl text-xs font-bold transition-all bg-moc-green text-white shadow-sm';
+
+        const filter = btn.getAttribute('data-filter');
+
+        productCards.forEach(card => {
+          if (filter === 'all' || card.getAttribute('data-category') === filter) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // 3. FAQ Accordion Toggle
+    const faqItems = document.querySelectorAll('.faq-item');
+    faqItems.forEach(item => {
+      const toggleBtn = item.querySelector('.faq-toggle');
+      const content = item.querySelector('.faq-content');
+      const icon = toggleBtn.querySelector('i');
+
+      toggleBtn.addEventListener('click', () => {
+        const isHidden = content.classList.contains('hidden');
+        
+        // Close other items for a clean single-open accordion feel
+        faqItems.forEach(otherItem => {
+          otherItem.querySelector('.faq-content').classList.add('hidden');
+          otherItem.querySelector('.faq-toggle i').style.transform = 'rotate(0deg)';
+        });
+
+        if (isHidden) {
+          content.classList.remove('hidden');
+          icon.style.transform = 'rotate(180deg)';
+        } else {
+          content.classList.add('hidden');
+          icon.style.transform = 'rotate(0deg)';
+        }
+      });
+    });
+
+    // 4. Promo Countdown Timer (Realistic dynamic countdown)
+    function startCountdown() {
+      // Countdown duration: 2 days, 14 hours, 35 minutes
+      let totalSeconds = (2 * 24 * 3600) + (14 * 3600) + (35 * 60) + 50;
+
+      const daysEl = document.getElementById('countdownDays');
+      const hoursEl = document.getElementById('countdownHours');
+      const minutesEl = document.getElementById('countdownMinutes');
+      const secondsEl = document.getElementById('countdownSeconds');
+
+      const timerInterval = setInterval(() => {
+        if (totalSeconds <= 0) {
+          clearInterval(timerInterval);
+          return;
+        }
+
+        totalSeconds--;
+
+        const days = Math.floor(totalSeconds / (24 * 3600));
+        const hours = Math.floor((totalSeconds % (24 * 3600)) / 3600);
+        const minutes = Math.floor((totalSeconds % 3600) / 60);
+        const seconds = Math.floor(totalSeconds % 60);
+
+        if (daysEl) daysEl.textContent = days.toString().padStart(2, '0');
+        if (hoursEl) hoursEl.textContent = hours.toString().padStart(2, '0');
+        if (minutesEl) minutesEl.textContent = minutes.toString().padStart(2, '0');
+        if (secondsEl) secondsEl.textContent = seconds.toString().padStart(2, '0');
+      }, 1000);
+    }
+    startCountdown();
+
+    // 5. Purchase Modal Logic (Quick redirect to TikTok Shop or Facebook)
+    const purchaseModal = document.getElementById('purchaseModal');
+    const modalProductName = document.getElementById('modalProductName');
+    const modalProductPrice = document.getElementById('modalProductPrice');
+    const modalProductImage = document.getElementById('modalProductImage');
+    const modalFbLink = document.getElementById('modalFbLink');
+    const modalTiktokLink = document.getElementById('modalTiktokLink');
+
+    function openPurchaseModal(productName, price, imageSrc) {
+      if (modalProductName) modalProductName.textContent = productName;
+      if (modalProductPrice) modalProductPrice.textContent = price;
+      if (modalProductImage && imageSrc) modalProductImage.src = imageSrc;
+
+      // Cấu hình URL liên kết thực tế của gian hàng
+      const fbBaseUrl = "https://www.facebook.com/share/1CNJh5EuMX/?mibextid=wwXIfr";
+      const tiktokBaseUrl = "https://www.tiktok.com/@mocsay_traicaysay?_r=1&_t=ZS-9AjFcgbGpRk";
+
+      if (modalFbLink) modalFbLink.href = fbBaseUrl;
+      if (modalTiktokLink) modalTiktokLink.href = tiktokBaseUrl;
+
+      if (purchaseModal) {
+        purchaseModal.classList.remove('hidden');
+      }
+    }
+
+    function closePurchaseModal() {
+      if (purchaseModal) {
+        purchaseModal.classList.add('hidden');
+      }
+    }
+
+    // Close modal on click outside content
+    window.addEventListener('click', (e) => {
+      if (e.target === purchaseModal) {
+        closePurchaseModal();
+      }
+    });
+
+    // Close modal on ESC key
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && !purchaseModal.classList.contains('hidden')) {
+        closePurchaseModal();
+      }
+    });
+  </script>
+
+</body>
+</html>
